@@ -10,9 +10,9 @@ Created on Nov 12, 2015
 
 @author: bertalan@princeton.edu
 '''
+import matplotlib.pyplot as plt
 import numpy as np
 from scipy.integrate import odeint
-import matplotlib.pyplot as plt
 n = 64  # Make a random "network".
 A = np.random.rand(n, n)
 p = .5
